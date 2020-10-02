@@ -8,6 +8,7 @@ const port = 4000
 
 server.use(express.json())
 server.use(usersRouter)
+server.use(welcomeRouter)
 
 
 
